@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selecciona una categoría para escanear QR">
+    <title>Seleccionar Categoría</title>
+    <link rel="stylesheet" href="./estilos/estiloSeleccionCat.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Elige una opción para el scan :</h1>
+        <div class="categories">
+            <button onclick="navigateToQR('Notebook')">Notebook</button>
+            <button onclick="navigateToQR('Monitores')">Monitores</button>
+            <button onclick="navigateToQR('CPU')">CPU</button>
+            <button onclick="navigateToQR('Teclados')">Teclados</button>
+            <button onclick="navigateToQR('Mouse')">Mouse</button>
+            <button onclick="navigateToQR('Impresoras')">Impresoras</button>
+            <button onclick="navigateToQR('Router')">Router</button>
+        </div>
+
+        <div>
+            <button class="cerrarSesion" onclick="logout()">Cerrar Sesión</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

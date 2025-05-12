@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>QR Scanner</title>
+  <link rel="stylesheet" href="./estilos/estiloQR.css">
+  <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="header">
+    <button class="back-button" onclick="location.href='seleccionCategorias.html'">
+      &#x21A9; Volver
+    </button>
+  </div>
+
+  <h1>SCAN</h1>
+  <div id="reader" class="responsive-scanner"></div>
+  <div id="result">Esperando escaneo...</div>
+  <button class="button" onclick="startScanner()"></button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Router</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="user-info">
+        <h2>NombreUsuario</h2>
+      </div>
+      <nav class="menu">
+        <a href="file:///Users/juanmalvino/Desktop/proyecto%20portafolio%20de%20titulo/notebook.html"><span class="material-icons">laptop</span>Notebook</a>
+        <a href="file:///Users/juanmalvino/Desktop/proyecto%20portafolio%20de%20titulo/monitores.html"><span class="material-icons">desktop_windows</span>Monitores</a>
+        <a href="file:///Users/juanmalvino/Desktop/proyecto%20portafolio%20de%20titulo/CPU.html"><span class="material-icons">dns</span>CPU</a>
+        <a href="file:///Users/juanmalvino/Desktop/proyecto%20portafolio%20de%20titulo/teclados.html"><span class="material-icons">keyboard</span>Teclados</a>
+        <a href="file:///Users/juanmalvino/Desktop/proyecto%20portafolio%20de%20titulo/mouse.html"><span class="material-icons">mouse</span>Mouse</a>
+        <a href="file:///Users/juanmalvino/Desktop/proyecto%20portafolio%20de%20titulo/index.html" class="active"><span class="material-icons">print</span>Impresoras</a>
+        <a href="file:///Users/juanmalvino/Desktop/proyecto%20portafolio%20de%20titulo/router.html"><span class="material-icons">router</span>Router</a>
+      </nav>
+      <button class="logout">Cerrar Sesión</button>
+    </aside>
+
+    <div class="overlay" id="overlay"></div> <!-- Nuevo elemento -->
+
+    <main class="content">
+      <button class="menu-toggle" id="menuToggle">
+        <span class="material-icons">menu</span>
+      </button>
+
+      <div class="header">
+        <h1 class="tituloHeader">Router</h1>
+        <span class="material-icons header-icon">router</span>
+      </div>
+
+      <table class="printer-table">
+        <thead>
+          <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Numero de Serie</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>TP-Link</td>
+            <td>TP-Link Archer C6</td>
+            <td>TPLARCHC6123456</td>
+            <td>
+              <select>
+                <option>En uso / RRHH</option>
+                <option>En Bodega</option>
+                <option>Defectuoso</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <select>
+                <option>En Bodega</option>
+                <option>En uso / RRHH</option>
+                <option>Defectuoso</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <select>
+                <option>En Bodega</option>
+                <option>En uso / RRHH</option>
+                <option>Defectuoso</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <select>
+                <option>Defectuoso</option>
+                <option>Servicio Técnico</option>
+                <option>Reciclaje</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <footer class="footer">
+        <p>LOGO EMPRESA</p>
+      </footer>
+    </main>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
