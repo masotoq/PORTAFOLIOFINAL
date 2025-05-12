@@ -1,0 +1,8 @@
+LOGIN :
+https://crudocode.com/login.html
+
+PANEL CENTRAL :
+https://crudocode.com/notebook.html
+
+SELECCION DE CATEGORIAS :
+https://crudocode.com/seleccionCategorias.html
